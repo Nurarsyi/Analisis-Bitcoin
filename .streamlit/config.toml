@@ -1,7 +1,9 @@
 [server]
 enableCORS = false
 enableXsrfProtection = false
-headless = true
+enableCcrs = false
+enableStaticServing = true
 
 [browser]
 gatherUsageStats = false
+setupPycache = false
